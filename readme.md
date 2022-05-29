@@ -1,7 +1,7 @@
 # HIT THE DOMBO 🥁  
 ### Click on each pad to hear a drum sound
 
-🔗 Link to pages
+🔗 https://nboyaroca.github.io/HitTheDombo/
 
 
 ------------
@@ -43,7 +43,7 @@ It was our first approach to javascript lenguage to make buttons sound.
 
 &nbsp;
 
-### FUNCTIONAL ITEMS 🔘
+#### FUNCTIONAL ITEMS 🔘
 >Desktop first.
 
 >Reponsive design adaptable to smartphone devices.
