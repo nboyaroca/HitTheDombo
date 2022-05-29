@@ -7,47 +7,70 @@ body{
     /*border-color: blue;
     border-style: solid;*/
 }
+
 header{
     height:100px;
     display: flex;
-    width:100%;
+    /* width:100%; */
     /*border-color: pink;
     border-style: solid;*/
-    justify-content: center;
-    margin-right:0px;
+    justify-content: space-between;
+    margin: 40px;
+    padding-bottom: 40px;
 }
+
 .logocontainer{
     width:40%;  
-    display: flex;
+    align-self: center;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /*border-color: orange;
     border-style: solid;*/
 }
+
 .menu{
     width:60%;
+    height: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
     /*border-color: red;
     border-style: solid;*/
-    margin-left: 20%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
 }
+
 .logo{
-    display:flex;
-    width: 50%;
-    height: 50%;
-}   
+    /* display:flex; */
+    width: 100%;
+    height: auto;
+    max-width: 230px;
+} 
+
 .buttons{
     display: flex;
     align-items: center;
+    justify-content: space-around;
     text-decoration: none;
     color:white;
-    margin-top: 7%;
+    padding: 0px 0.5em;
+    /* margin-top: 7%;
     margin-bottom: 20%;
-    margin-right: 5%;
+    margin-right: 5%; */
 }
-#signup{
+
+.buttons span {
+    color: #00F487;
+    font-weight: bold;
+}
+
+.separator {
+    color: #00F487;
+}
+
+/* #signup{
     color:#168965;
     font-weight: bold;
     padding-right: 4%;
@@ -55,9 +78,11 @@ header{
     margin-right: 5%;
     margin-top: 5%;  
 }
+
 #login{
     margin-left: 0px;
-}
+} */
+
 .buttonmobile{
     display: none;
     text-decoration: none;
@@ -71,30 +96,37 @@ header{
     margin-right: 0px;
     color: #00f281;
 }
+
 main{
     display: flex;
     width:100%;
+    margin: 40px;
     /*border-color: green;
     border-style: solid;  */
 }
+
 .textcentral{
     flex-direction: column;
-    width:50%;
+    width:40%;
     align-items: flex-start;
+    padding-left: 20px;
     /*border-color: white;
     border-style: solid;*/
 }
+
 .imatgecentralcontainer{
     width:50%;
     /*border-color: black;
     border-style: solid;*/
     position: relative;
 }
+
 .imatgecentral{
     display: flex;
     height:100%;
     width:80%;
 }
+
 .drum {
     height: 22%;
     width:12%;
@@ -104,6 +136,7 @@ main{
     position: absolute;
     background-color: black;
 }
+
 .drum2{
     height: 22%;
     width:12%;
@@ -113,6 +146,7 @@ main{
     left:65.5%;
     background-color: black;
 }
+
 .drum3{
     height: 22%;
     width: 12%;
@@ -122,6 +156,7 @@ main{
     left:7.8%;
     background-color: black;
 }
+
 .drum4{
     height: 22%;
     width: 12%;
@@ -131,6 +166,7 @@ main{
     left:59.4%;
     background-color: black;
 }
+
 .drum5{
     height: 31%;
     width: 17%;
@@ -140,6 +176,7 @@ main{
     left:21.8%;
     background-color: black;
 }
+
 .drum6{
     height: 31%;
     width:17%;
@@ -149,6 +186,7 @@ main{
     left:40.7%;
     background-color: black;
 }
+
 .drum7{
     height: 31%;
     width:17%;
@@ -158,6 +196,7 @@ main{
     left:12%;
     background-color: black;
 }
+
 .drum8{
     height: 31%;
     width: 17%;
@@ -167,18 +206,19 @@ main{
     left:50.5%;
     background-color: black;
 }
+
 h1{
     color: white;
     font-size: 5vw;
-    padding-left: 40%;
 }
+
 h3{
     margin-top: -5%;
     color:#565470;
-    font-size: 1vw;
-    padding-left: 40%;
-    margin-bottom: 3%;
+    font-size: 2vw;
+    padding-bottom: 5%;
 }
+
 .midbutton{
     text-decoration: none;
     border-style: solid;
@@ -189,9 +229,9 @@ h3{
     background-color: #00f482;
     border-color: #00f482;
     color:white;
-    margin-left: 40%;
     opacity: 80%;
 }
+
 section{
     display: flex;
     width:100%;
@@ -201,14 +241,17 @@ section{
     /*border-color: red;
     border-style: solid;*/
 }
+
 h2{
     color:white;
     font-size: 2vw;
 }
+
 .h3{
     padding-left: 0;
     margin-top:-1%;
 }
+
 .endbutton{
     text-decoration: none;
     border-style: solid;
@@ -226,13 +269,17 @@ h2{
     html{
         overflow: hidden;
     }
-    .menu{display:none}
+
+    .menu{
+        display:none
+    }
+
     .logocontainer{
         margin-top: 20%;
         height: 100%;
         width: 100%;
-   
     }
+
     body{
     height: 99vh;
     overflow-y: hidden;
@@ -240,25 +287,30 @@ h2{
     overflow: hidden;
     max-width: 400px;
     max-height: 900px;
-}
+    }
+
     main{
         display: flex;
         flex-direction: column-reverse;
         width:225vw;
         margin-left: 5%;
-        height: 80%;
+        /* height: 80%; */
     }
+
     .textcentral{ 
         width:60%;
-        margin-left: -17%;  
+        font-size: 1em;
     }
+
     h1{
         font-size: 3em;
     }
+
     h3{
         font-size:0.8em;
         margin-bottom: 10%;
     }
+
     .midbutton{
         margin-top:30%;
         text-decoration: none;
@@ -270,11 +322,12 @@ h2{
         background-color: #00f482;
         border-color: #00f482;
         color:white;
-        margin-left: 40%;
+        margin-left: 15%;
         opacity: 80%;
     }
+
     section{display: none;
-}
+    }
 
 }
 
